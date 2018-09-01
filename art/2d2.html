@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>uinku.com | Art | 2D</title>
+    <link rel="icon" type="image/png" href="http://uinku.com/favicon.png" />
+    <link rel="stylesheet" href="/css/site.css" type="text/css" />
+    <link rel="stylesheet" href="/css/lightbox.css" type="text/css" media="screen" /> 
+    <script type="text/javascript" src="/js/waitingRoom.js"></script>   
+    <script type="text/javascript" src="/js/prototype.js"></script>
+    <script type="text/javascript" src="/js/scriptaculous.js?load=effects,builder"></script>
+    <script type="text/javascript" src="/js/lightbox.js"></script>
+		<script type="text/javascript" src="/js/jquery-1.5.2.min.js"></script>          
+    <script type="text/javascript" src="/js/index.js"></script> 
+  </head>
+  <?php flush(); ?>  
+  <body>
+    <div id="holder"><div id="background"></div></div> 
+    <div id="content">
+      <?php require "../includes/header.html";
+      ?>     
+      <div class="subheader">
+        <ul>
+          <li><span>Art</span></li>
+          <li><a href="/art/3d.html">3D</a></li>
+          <li><a href="/art/2d.html" class="selected">2D</a></li>
+        </ul>
+      </div>
+      <div class="main">
+      	<div class="infoSection">
+          <h1>Personal</h1><hr />
+          <?php
+            $xml = simplexml_load_file( '../includes/imageList.xml' );
+            
+            $img_cnt = count($xml->twoD->img);
+            for($i = 0; $i < $img_cnt; $i++)
+            {
+              $image = $xml->twoD->img[$i]->attributes()->src;
+              echo "<a href='/images/2d/" , $image , "'  rel='lightbox[2d]'>";
+              echo "<img class='thumb' src='/images/2d/" , $xml->twoD->img[$i]->thumb , "' width='100' height='100' alt='" , $image , "'/></a>";
+            }
+          ?>
+        </div><!--end of infoSection-->
+      </div><!--end of main-->
+      <?php require "../includes/footer.html"; ?>
+    </div><!--end of content-->
+  </body>
+</html>

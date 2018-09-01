@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Get Quote</title>
+    <script type="text/javascript">
+			var xhr = null;
+			function quote()
+			{
+				//create http request
+				try
+				{
+					xhr = new XMLHttpRequest();
+				}
+				catch (e)
+				{
+					xhr = new ActiveXObject("Microsoft.XMLHTTP");
+				}
+				
+				if (xhr == null)
+				{
+					alert("AJAX not supported.");
+				}
+				
+				// construct url
+				var url = "quote1.php?symbol=" + document.getElementById("symbol").value;
+				
+				// get quote
+				xhr.onreadystatechange = handler;
+				xhr.open( "GET", url, true);
+				xhr.send(null);
+			}
+			
+			// handles ajax call
+			function handler()
+			{
+				var result = document.getElementById("result");
+				result.innerHTML = "Price: Processing...";
+				if (xhr.readyState == 4)
+				{
+					if (xhr.status == 200)
+						result.innerHTML = "Price: " + xhr.responseText;
+					else
+						result.innerHTML = "Error with ajax call.";
+				}
+			}
+		</script>
+  </head>  
+  <body>
+  	<form action="quote1.php" method="get" onsubmit="quote(); return false;">
+    	Symbol: <input id="symbol" name="symbol" type="text" /> <br />
+      <span id="result">Price: TBD</span> <br />
+      <input type="submit" style="margin-top: 10px;" value="Get Quote" />
+    </form>
+  </body>
+</html>

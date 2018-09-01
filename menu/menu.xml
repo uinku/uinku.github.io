@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+	<category name="Pizza">
+		<subcategory name="Pizzas">
+			<item>
+				<name>Tomato &amp; Cheese</name>
+				<prices>
+					<small>550</small>
+					<large>975</large>
+				</prices>
+			</item>
+			<item>
+				<name>Pepperoni</name>
+				<prices>
+					<small>685</small>
+					<large>1085</large>
+				</prices>
+			</item>
+			<item>
+				<name>Mushrooms</name>
+				<prices>
+					<small>685</small>
+					<large>1085</large>
+				</prices>
+			</item>
+		</subcategory>
+		<subcategory name="Specialty Pizzas">
+			<item>
+				<name>Three Aces Special</name>
+				<prices>
+					<small>980</small>
+					<large>1580</large>
+				</prices>
+			</item>
+			<item>
+				<name>Mediterranean</name>
+				<description>Sliced Tomatoes, Olives, Spinach, Fresh Garlic, Mozzarella &amp; Feta Cheese</description>
+				<prices>
+					<small>980</small>
+					<large>1580</large>
+				</prices>
+			</item>
+			<item>
+				<name>Meat Lovers</name>
+				<description>Pepperoni, Hamburger, Sausage &amp; Bacon</description>
+				<prices>
+					<small>980</small>
+					<large>1580</large>
+				</prices>
+			</item>
+		</subcategory>
+		</category>
+	<category name="Pasta">
+		<subcategory name="Spaghetti or Ziti" options="Spaghetti, Ziti">
+			<item>
+				<name>With Sauce</name>
+				<prices>
+					<regular>625</regular>
+				</prices>
+			</item>
+			<item>
+				<name>With Meatball</name>
+				<prices>
+					<regular>725</regular>
+				</prices>
+			</item>
+			<item>
+				<name>A La Three Aces</name>
+				<description>Sausage, Mushrooms, Bacon &amp; Ham. Topped with Sauce &amp; Mozzarella Cheese</description>
+				<prices>
+					<regular>725</regular>
+				</prices>
+			</item>
+		</subcategory>
+		<subcategory name="Homemade Lasagna, Ravioli or Manicotti" options="Lasagna, Ravioli, Manicotti">
+			<item>
+				<name>With Sauce</name>
+				<prices>
+					<regular>625</regular>
+				</prices>
+			</item>
+			<item>
+				<name>With Chicken Cutlet</name>
+				<prices>
+					<regular>725</regular>
+				</prices>
+			</item>
+			<item>
+				<name>Veggie</name>
+				<prices>
+					<regular>725</regular>
+				</prices>
+			</item>
+		</subcategory>
+	</category>
+	<category name="Calzones">
+		<subcategory name="Homemade Calzones">
+			<item>
+				<name>Grecian</name>
+				<description></description>
+				<prices>
+					<large>735</large>
+				</prices>
+			</item>
+			<item>
+				<name>Steak</name>
+				<description></description>
+				<prices>
+					<large>735</large>
+				</prices>
+			</item>
+			<item>
+				<name>Eggplant</name>
+				<description></description>
+				<prices>
+					<large>735</large>
+				</prices>
+			</item>
+		</subcategory>
+	</category>
+	<category name="Special Dinners">
+		<subcategory name="Special Dinners">
+			<item>
+				<name>Gyro Plate</name>
+				<prices>
+					<regular>725</regular>
+				</prices>
+			</item>
+			<item>
+				<name>Steak Tips</name>
+				<description>Served with side salad &amp; french fries</description>
+				<prices>
+					<regular>725</regular>
+				</prices>
+			</item>
+			<item>
+				<name>Fish &amp; Chips</name>
+				<description>Served with side salad, french fries &amp; tartar sauce</description>
+				<prices>
+					<regular>725</regular>
+				</prices>
+			</item>
+		</subcategory>
+	</category>
+	<category name="Sandwiches">
+		<subcategory name="Grinders">
+			<item>
+				<name>Hot Pastrami</name>
+				<description/>
+				<prices>
+					<small>450</small>
+					<large>495</large>
+				</prices>
+			</item>
+			<item>
+				<name>B.L.T.</name>
+				<description>Bacon, Lettuce, Tomato</description>
+				<prices>
+					<small>475</small>
+					<large>575</large>
+				</prices>
+			</item>
+			<item>
+				<name>Three Aces Special</name>
+				<description>Turkey, Roast Beef &amp; Bacon</description>
+				<prices>
+					<small>530</small>
+					<large>640</large>
+				</prices>
+			</item>
+		</subcategory>
+		<subcategory name="Wraps">
+			<item>
+				<name>Chicken Cobb</name>
+				<description>Grilled Chicken, Bacon, Cheese, Lettuce, Tomato, Onion &amp; Honey Mustard</description>
+				<prices>
+					<regular>495</regular>
+				</prices>
+			</item>
+			<item>
+				<name>Greek Supreme</name>
+				<description>Feta Cheese, Black Olives, Lettuce, Tomato, Onion &amp; Greek Dressing</description>
+				<prices>
+					<regular>495</regular>
+				</prices>
+			</item>
+			<item>
+				<name>Crispy Chicken</name>
+				<description>Chicken Finger, Lettuce, Tomato, Onion &amp; Honey Mustard</description>
+				<prices>
+					<regular>495</regular>
+				</prices>
+			</item>
+		</subcategory>
+	</category>
+	<category name="Sides">
+		<subcategory name="Salads">
+			<item>
+				<name>Garden</name>
+				<prices>
+					<small>350</small>
+					<large>450</large>
+				</prices>
+			</item>
+			<item>
+				<name>Greek</name>
+				<prices>
+					<small>450</small>
+					<large>550</large>
+				</prices>
+			</item>
+			<item>
+				<name>Kabob Salad</name>
+				<description>With Grilled Chicken &amp; Feta Cheese</description>
+				<prices>
+					<small>545</small>
+					<large>645</large>
+				</prices>
+			</item>
+		</subcategory>
+		<subcategory name="Side Orders">
+			<item>
+				<name>French Fries</name>
+				<description></description>
+				<prices>
+					<small>225</small>
+					<large>295</large>
+				</prices>
+			</item>
+			<item>
+				<name>Onion Rings</name>
+				<prices>
+					<small>260</small>
+					<large>295</large>
+				</prices>
+			</item>
+			<item>
+				<name>Chicken Wings</name>
+				<prices>
+					<regular>575</regular>
+				</prices>
+			</item>
+		</subcategory>
+	</category>
+</menu>
+
+<!--
+	<category name="">
+		<subcategory name="">
+			<item>
+				<name></name>
+				<description></description>
+				<prices>
+					<size></size>
+				</prices>
+			</item>
+		</subcategory>
+	</category>
+-->

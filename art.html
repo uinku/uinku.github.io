@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>uinku.com | Art</title>
+    <link rel="icon" type="image/png" href="http://uinku.com/favicon.png" />
+    <link rel="stylesheet" href="/css/site.css" type="text/css" />
+    <link rel="stylesheet" href="/css/art.css" type="text/css" />
+    <link rel="stylesheet" href="/css/lightbox.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="/js/prototype.js"></script>
+		<script type="text/javascript" src="/js/scriptaculous.js?load=effects,builder"></script>		
+    <script type="text/javascript" src="/js/lightbox.js"></script> 
+		<script type="text/javascript" src="/js/jquery-1.5.2.min.js"></script>          
+    <script type="text/javascript" src="/js/index.js"></script>  
+  </head>
+  <?php flush(); ?>  
+  <body>
+    <div id="holder"><div id="background"></div></div> 
+    <div id="content">
+      <?php require "includes/header.html" ; ?>
+      <div class="subheader">
+        <ul>
+            <li><span>Art</span></li>
+            <li><a href="/art/3d.html">3D</a></li>
+            <li><a href="/art/2d.html">2D</a></li>
+        </ul>
+      </div><!--end of subheader-->
+      <div class="main">    
+      	<div class="infoSection">
+          <div class="artHolder">
+            <table>
+              <tr>
+                <td class="right">
+                  <a class="threeD" href="/art/3d.html" title="3D"></a>
+                </td>
+                <td class="left">
+                  <a class="twoD" href="/art/2d.html" title="2D"></a>
+                </td>
+              </tr>
+              <tr>
+                <td class="right">
+                  <br />
+                  <?php
+                      $xml = simplexml_load_file( './includes/imageList.xml' );
+                      
+                      for($i = 0; $i < 4; $i++)
+                      {
+                          $image = $xml->threeD->img[$i]->attributes()->src;
+                          echo "<a href='/images/3d/" , $image , "'  rel='lightbox[3d]'>";
+                          echo "<img class='thumb' src='/images/3d/" , $xml->threeD->img[$i]->thumb , "' width='100' height='100' alt='" , $image , "'/></a>";
+                      }
+                   ?>
+                </td>
+                <td class="left">
+                  <br />
+                  <?php                    
+                      for($i = 0; $i < 4; $i++)
+                      {
+                          $image = $xml->twoD->img[$i]->attributes()->src;
+                          echo "<a href='/images/2d/" , $image , "'  rel='lightbox[2d]'>";
+                          echo "<img class='thumb' src='/images/2d/" , $xml->twoD->img[$i]->thumb , "' width='100' height='100' alt='" , $image , "'/></a>";
+                      }
+                   ?>
+                </td>
+              </tr>
+            </table>
+          </div><!--end of artHolder-->
+        </div><!--end of infoSection-->
+      </div><!--end of main-->
+      <?php require "includes/footer.html"; ?>
+    </div><!--end of content-->
+  </body>
+</html>

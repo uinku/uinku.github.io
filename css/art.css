@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+<style type="text/css">
+<!--
+	.artHolder {
+		margin: 0;
+		padding: 0;
+	}
+	.artHolder table {
+		margin: auto;
+		padding: 0;
+	}
+	.artHolder td {
+		margin: 0;
+		padding: 0;
+		width: 300px;
+	}
+	.artHolder .right {
+		padding: 0 10px 0 0;
+		text-align: right;
+	}
+	.artHolder .left {
+		padding: 0 0 0 10px;
+		text-align: left;
+	}
+	.artHolder a {
+		display: block;
+		background-repeat: no-repeat;
+		border: none;
+	}
+	.artHolder .right a {
+		float: right;
+	}
+	.artHolder .left a {
+		float: left;
+	}
+	.threeD {
+		float: right;
+		width: 300px;
+		height: 193px;
+		background-image: url('/images/3d2d.png');
+		background-position: -295px 0;
+	}
+	.threeD:hover {
+		background-position: -295px -193px;
+	}
+	.twoD {
+		width: 295px;
+		height: 193px;
+		background-image: url('/images/3d2d.png');
+		background-position: 0 0;
+	}
+	.twoD:hover {
+		background-position: 0 -193px;
+	}
+-->
+</style>

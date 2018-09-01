@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>                                                                  
+  <head>
+   <script type="text/javascript" src="/js/jquery-1.5.2.min.js"></script>          
+   <script type="text/javascript">                                         
+		$(function() {
+			var hidden = false;
+			$("a").click(function() {
+				alert("Hello world!");
+			});
+			
+			$(document.body).click(function() {
+				if (!hidden) {
+					$("span").css("color", "red");
+				}
+				else {
+					$("span").css("color", "black");
+				}
+			});
+			
+			$(".thumb2").bind("load", function () {
+				$(this).hide().fadeIn(2000);
+			});
+			
+			$("span").click(function () {
+				if (!hidden)
+				{
+					$(".thumb2").fadeOut(2000, function(){
+						$(".thumb2").css("visibility", "hidden");
+					});
+					hidden = true;
+				}
+				else
+				{
+					$(".thumb2").fadeIn(2000);
+					hidden = false;
+					$(".thumb2").css("visibility", "visible");
+				}
+			});
+		});                                   
+   </script> 
+   <style type="text/css">
+	 	body {
+	 		background-color: #ccc;
+		}
+	 </style>                                              
+  </head>                                                                 
+  <body>                                                                  
+   <a href="#">Link</a>  
+   <p>test text paragraph</p>   
+   <img class="thumb2" src="/images/2d/Lil-1_thumb.jpg" />   
+   <span>image fader</span>                          
+  </body>                                                                 
+</html>

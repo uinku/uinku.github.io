@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<games>
+	<category type="Browser">
+		<game>
+			<displayName>Tetris</displayName>
+			<fileName>tetris</fileName>
+		</game>
+		<game>
+			<displayName>Slot Machine</displayName>
+			<fileName>slotMachine</fileName>
+		</game>
+		<game>
+			<displayName>Endless Runner</displayName>
+			<fileName>endlessRunner</fileName>
+		</game>
+	</category>
+</games>

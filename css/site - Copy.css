@@ -1,0 +1,232 @@
+@charset "utf-8";
+/* CSS Document */
+<style type="text/css">
+<!--
+	html {
+		margin: 0;
+		padding: 0;
+	}
+	body {		
+		margin: 0;
+		padding: 0;
+		font-family: Tahoma, Geneva, sans-serif;
+		background-color: #201f1e;
+		background-image: url('/images/body_bg.png');
+		background-repeat: repeat;
+		color: #eae7dd;
+	}
+	.header {
+		margin: 0;
+		padding: 0;
+		background-image: url('/images/header_bg.jpg');
+		background-repeat: repeat-x;
+		height: 70px;
+		text-align: center;
+	}
+	.header .container { /*wrapper*/
+		margin: 0;
+		padding: 15px 20px;
+	}
+	.header a.uinkuLogo {
+		background-image: url('/images/uinkuText.png');
+		background-repeat: no-repeat;
+		display: block;
+		width: 196px;
+		height: 36px;
+		background-position: 0 0px;
+	}
+	.header a.uinkuLogo:hover {			
+		background-position: 0 -36px;
+	}
+	.header a.uinkuLogo:active {			
+		background-position: 0 -72px;
+	}
+	.header ul {
+		margin: 0;
+		padding: 10px 0;
+		float: right;
+	}
+	.header ul a {
+		background-image: url('/images/navText.png');
+		background-repeat: no-repeat;
+		display: block;
+		height: 32px;	
+	}
+	.header li {
+		display: inline-block;
+		list-style: none;
+	}
+	.header a.art {
+		width: 39px;
+		background-position: 0 0px;
+	}
+	.header a.art:hover {
+		background-position: 0 -32px;
+	}
+	.header a.art:active {
+		background-position: 0 -64px;
+	}
+	.header a.music {
+		width: 72px;
+		background-position: -39px 0px;
+	}
+	.header a.music:hover {
+		background-position: -39px -32px;
+	}
+	.header a.music:active {
+		background-position: -39px -64px;
+	}
+	.header a.games {
+		width: 77px;
+		background-position: -111px 0px;
+	}
+	.header a.games:hover {
+		background-position: -111px -32px;
+	}
+	.header a.games:active {
+		background-position: -111px -64px;
+	}
+	.header a.contact {
+		width: 87px;
+		background-position: -188px 0px;
+	}
+	.header a.contact:hover {
+		background-position: -188px -32px;
+	}
+	.header a.contact:active {
+		background-position: -188px -64px;
+	}
+	.subheader {
+		margin: 0;
+		padding: 4px 0;
+		height: 23px;
+		background-color: #0b0b0b;
+	}
+	.subheader ul {
+		margin: 0;
+		padding: 0;
+	}
+	.subheader span {
+		margin: 0 15px 0 45px;
+		padding: 0;
+		font-weight: bold;	
+	}
+	.subheader li {
+		margin: 2px 0;
+		padding: 0;
+		display: inline-block;
+		list-style: none;
+	}
+	.subheader .selected {
+		background-color: #d11c04;
+		color: #eae7dd;
+	}
+	.subheader a {
+		margin: 0;
+		padding: 6px 8px;
+		color: #eae7dd;
+		text-decoration: none;
+		font-weight: normal;
+	}
+	.subheader li:hover a{
+		background-color: #eae7dd;
+		color: #0b0b0b;
+	}
+	.main {
+		margin: 0 auto;
+		padding: 0;
+		width: 1000px;
+		min-height: 100%;
+		background-image: url('/images/main_bg.png');
+		background-repeat: repeat-y center;
+	}
+	.main .content {
+		margin: 0;
+		padding: 20px;
+		min-height: 100%;
+	}
+	.main a {
+		color: #ffd200;
+		text-decoration: none;
+	}
+	.main a:hover {
+		text-decoration: underline;
+	}
+	.main img {
+		margin: 10px;
+		border: none;
+	}
+	.main .thumb {
+		margin: 5px;
+	}
+	.main .thumb img:hover {
+		border: medium;
+	}
+	.sidebar {
+		margin: 20px 10px;
+		padding: 10px;
+		width: 300px;
+		height: 500px;		
+		float: right;
+		border: 5px solid #d11c04;
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		background: #201f1e;
+	}
+	.ad {			
+		margin: 0 0 5px;
+		padding: 10px;
+		border: 3px solid #0b0b0b;
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		height: 200px;
+		background: #eae7dd;
+		background-image:url('/images/The-Critic.jpg');
+	}
+	.sidebar span {
+		padding: 5px 5px 20px;
+		color: #ffd200;
+		font-weight: bold;
+		text-align: center;
+	}
+	#wink {
+		margin: 0;
+		padding: 30px;
+		min-height: 500px;
+		font-weight: bold;
+		font-size: 20em;
+		text-align: center;
+		font-family: "Trebuchet MS", sans-serif;
+		cursor: pointer;
+	}
+	#wink p {
+		margin: 0;
+		padding: 0;
+	}
+	.footer {
+		margin: 0;
+		padding: 8px;
+		height: auto;
+		background-color: #0b0b0b;
+		font-size: .8em;
+		color: eae7dd;
+		text-align: center;
+	}
+	.footer p {
+		margin: 0;
+		padding: 0;
+	}
+	.subfooter {		
+		margin: 0;
+		padding: 5px;
+		height: auto;
+		background-color: #0a0a0a;
+		font-size: .8em;
+		color: eae7dd;
+		cursor: wait;
+	}
+	.subfooter span:first-child {
+		float: right;
+	}
+-->
+</style>

@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.category {
+	font-weight: bold;
+	color: #005295;
+}
+
+.subcategory {
+	font-weight: bold;
+	color: #006DF2;
+}
+
+.item {
+	color: black;
+}
+
+.description {
+	font-size: 0.9em;
+	color: #666666;
+	font-style: italic;
+}
+
+.price-size {
+	font-size: 0.9em;
+}
+
+.count {
+	width: 50px;
+	margin: 0 5px;
+}
+
+form {
+	display: inline;
+}
+
+input {
+	display: inline;
+}
+
+input.hidden {
+	display: none;
+}

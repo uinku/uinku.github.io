@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<imageList>
+	<wickedCinder>
+		<img src="skeleton.jpg">
+			<thumb>skeleton_thumb.jpg</thumb>
+			<width>980</width>
+			<height>927</height>
+		</img>
+		<img src="bed.jpg">
+			<thumb>bed_thumb.jpg</thumb>
+			<width>980</width>
+			<height>799</height>
+		</img>
+		<img src="grill.jpg">
+			<thumb>grill_thumb.jpg</thumb>
+			<width>980</width>
+			<height>1236</height>
+		</img>
+		<img src="acetylene-tank.jpg">
+			<thumb>acetylene-tank_thumb.jpg</thumb>
+			<width>980</width>
+			<height>1085</height>
+		</img>
+		<img src="air-compressor.jpg">
+			<thumb>air-compressor_thumb.jpg</thumb>
+			<width>980</width>
+			<height>863</height>
+		</img>
+		<img src="chair.jpg">
+			<thumb>chair_thumb.jpg</thumb>
+			<width>980</width>
+			<height>1134</height>
+		</img>
+	</wickedCinder>
+	<threeD>
+		<img src="Corolla-front.jpg">
+			<thumb>Corolla-front_thumb.jpg</thumb>
+			<width>800</width>
+			<height>635</height>
+		</img>
+		<img src="Corolla-back.jpg">
+			<thumb>Corolla-back_thumb.jpg</thumb>
+			<width></width>
+			<height></height>
+		</img>
+		<img src="emotion-happy.jpg">
+			<thumb>emotion-happy_thumb.jpg</thumb>
+			<width>700</width>
+			<height>735</height>
+		</img>
+		<img src="emotion-drunk.jpg">
+			<thumb>emotion-drunk_thumb.jpg</thumb>
+			<width>700</width>
+			<height>735</height>
+		</img>
+		<img src="emotion-sad.jpg">
+			<thumb>emotion-sad_thumb.jpg</thumb>
+			<width>700</width>
+			<height>735</height>
+		</img>
+		<img src="emotion-full.jpg">
+			<thumb>emotion-full_thumb.jpg</thumb>
+			<width>980</width>
+			<height>769</height>
+		</img>
+		<img src="house-daytime-front.jpg">
+			<thumb>house-daytime-front_thumb.jpg</thumb>
+			<width>900</width>
+			<height>679</height>
+		</img>
+		<img src="house-daytime-back.jpg">
+			<thumb>house-daytime-back_thumb.jpg</thumb>
+			<width>900</width>
+			<height>679</height>
+		</img>
+		<img src="lionfish.jpg">
+			<thumb>lionfish_thumb.jpg</thumb>
+			<width>980</width>
+			<height>838</height>
+		</img>
+		<img src="male1-full.jpg">
+			<thumb>male1-full_thumb.jpg</thumb>
+			<width>800</width>
+			<height>785</height>
+		</img>
+		<img src="komainu.jpg">
+			<thumb>komainu_thumb.jpg</thumb>
+			<width>929</width>
+			<height>635</height>
+		</img>
+	</threeD>
+	<twoD>
+		<img src="Avatar.jpg">
+			<thumb>Avatar_thumb.jpg</thumb>
+			<width>500</width>
+			<height>535</height>
+		</img>
+		<img src="gir_web.jpg">
+			<thumb>gir_web_thumb.jpg</thumb>
+			<width>511</width>
+			<height>609</height>
+		</img>
+		<img src="Lil-1.jpg">
+			<thumb>Lil-1_thumb.jpg</thumb>
+			<width>980</width>
+			<height>687</height>
+		</img>
+		<img src="Lil-2.jpg">
+			<thumb>Lil-2_thumb.jpg</thumb>
+			<width>795</width>
+			<height>649</height>
+		</img>
+		<img src="Lil-3.jpg">
+			<thumb>Lil-3_thumb.jpg</thumb>
+			<width>794</width>
+			<height>650</height>
+		</img>
+		<img src="ZiyiZhang.jpg">
+			<thumb>ZiyiZhang_thumb.jpg</thumb>
+			<width>725</width>
+			<height>1035</height>
+		</img>
+		<img src="SelfPortrait.jpg">
+			<thumb>SelfPortrait_thumb.jpg</thumb>
+			<width>587</width>
+			<height>835</height>
+		</img>
+		<img src="tink_final_web.png">
+			<thumb>tink_final_web_thumb.jpg</thumb>
+			<width>667</width>
+			<height>1000</height>
+		</img>
+		<img src="ed_final_web.png">
+			<thumb>ed_final_web_thumb.jpg</thumb>
+			<width></width>
+			<height></height>
+		</img>
+		<img src="milk_chan_final_web.png">
+			<thumb>milk_chan_final_web_thumb.jpg</thumb>
+			<width></width>
+			<height></height>
+		</img>
+		<img src="zelda_final_web.png">
+			<thumb>zelda_final_web_thumb.jpg</thumb>
+			<width></width>
+			<height></height>
+		</img>
+		<img src="Jontron_final_web.png">
+			<thumb>Jontron_final_web_thumb.jpg</thumb>
+			<width></width>
+			<height></height>
+		</img>
+	</twoD>
+</imageList>
