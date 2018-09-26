@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
-    <meta name="author" content="James Winkler" />
-		<meta charset="utf-8" />
-  	<title>uinku.com</title>
-    <link rel="icon" type="image/png" href="http://uinku.com/favicon.png" />
-    <link rel="stylesheet" href="/css/site.css" type="text/css" />
-    <script type="text/javascript" src="/js/index.js"></script>
-    <script type="text/javascript" src="/js/waitingRoom.js"></script>
+	<meta name="author" content="James Winkler" />
+	<meta charset="utf-8" />
+  	<title>uinku.github.io</title>
+	<link rel="icon" type="image/png" href="/favicon.png" />
+	<link rel="stylesheet" href="/css/site.css" type="text/css" />
+	<script type="text/javascript" src="/js/index.js"></script>
+	<script type="text/javascript" src="/js/waitingRoom.js"></script>
 	</head>
   <?php flush(); ?>
 	<body>
