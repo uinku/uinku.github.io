@@ -10,8 +10,14 @@ let minAngle;
 let period = 1000;
 
 function setup() {
-  createCanvas(400, 400);
-  maxRadius = 150;
+  let w = window.innerWidth
+    || document.documentElement.clientWidth
+    || document.body.clientWidth || 400;
+  let h = window.innerHeight
+    || document.documentElement.clientHeight
+    || document.body.clientHeight || 400;
+  createCanvas(w, h);
+  maxRadius = min(w, h) * 0.3;
   minAngle = TAU / maxEdgeCount;
   polys = generatePolys(minEdgeCount, maxEdgeCount, maxRadius);  
 }
